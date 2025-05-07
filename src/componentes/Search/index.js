@@ -57,7 +57,7 @@ function Search(){
                 }} />  
                 {livroPesquisado.map(livro => (
                     <Resultado>
-                        <img src = {livro.src}/>
+                        <img src = {livro.src} alt="capa do livro"/>
                         <p>{livro.nome}</p>
                         
                     </Resultado>
